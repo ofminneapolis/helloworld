@@ -16,3 +16,15 @@ python title_screen.py
 ```
 
 Press any key to proceed from the title screen.
+
+## Building an executable
+
+If you want to create a standalone executable (for example on Windows), install
+`pyinstaller` and run the provided build script:
+
+```bash
+pip install pyinstaller
+./build_exe.sh
+```
+
+The resulting executable will be placed in the `dist` directory.
